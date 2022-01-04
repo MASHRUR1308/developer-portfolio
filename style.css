@@ -44,7 +44,7 @@ h1{
     background-repeat: no-repeat;
     background-position: right ;
 }
-.dream-big .dream-left{}
+
 .dream-big .dream-left img{
     width: 70%;
 }
@@ -58,3 +58,58 @@ h1{
     margin: 10px 0;
     display: inline-block;
 }
+.experiences{
+    margin: 150px -8px;
+}
+.experiences .ex-h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:75px;
+    
+}
+.experiences .dream-content{
+    display: flex;
+}
+
+.experiences .ex-item h3{
+    color: orange;
+}
+.experiences .ex-item p{
+    text-align: justify;
+    padding-right: 50px;
+}
+.experiences .dream-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.experiences .ex-item{
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    box-shadow: 10px 10px 40px grey;
+    border-left: 10px solid #000;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-devloper {
+    border-left: 7px solid;
+    border-image: linear-gradient(
+180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
+
